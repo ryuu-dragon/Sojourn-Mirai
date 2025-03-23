@@ -1583,17 +1583,7 @@ obj/effect/floor_decal/corner_techfloor_gray
 	name = "shale edge"
 	icon_state = "shale_edge_corner"
 
-/*Snow corners*/
-
-/obj/effect/floor_decal/snow_edge
-	name = "snow edge"
-	icon_state = "snow_edge"
-
-/obj/effect/floor_decal/grass_edge/corner
-	name = "snow edge"
-	icon_state = "snow_edge_corner"
-
-/* Industrial Plant*/
+/* Industrail Plant*/
 
 /obj/effect/floor_decal/industrial_plant
 	name = "steel industrial header"

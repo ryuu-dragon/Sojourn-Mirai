@@ -6,8 +6,6 @@
 
 //Soteria healing kits
 
-// 10.03.25 - CFW - Moving to miscelaneous as a test QOL patch
-/*
 /datum/craft_recipe/soteria/cloth
 	name = "salvage cloth"
 	result = /obj/item/stack/material/cloth/soteria
@@ -16,7 +14,6 @@
 		list(/obj/item/clothing, 1, "time" = 25),
 		list(QUALITY_CUTTING, 10, "time" = 30)
 	)
-*/
 
 /datum/craft_recipe/soteria/gauze
 	name = "Soteria medical gauze"

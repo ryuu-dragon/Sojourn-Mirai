@@ -963,7 +963,7 @@
 	chems = list("nutriment" = list(1,10), "cornoil" = list(1,10))
 	kitchen_tag = "corn"
 	trash_type = /obj/item/corncob
-	companions = list("pumpkin", "soybeans", "strawberries", "cabbage")
+	companions = list("pumpkin", "soybean", "strawberries", "cabbage")
 
 /datum/seed/corn/New()
 	..()
@@ -1000,15 +1000,15 @@
 	set_trait(TRAIT_PLANT_ICON,"bush2")
 	set_trait(TRAIT_WATER_CONSUMPTION, 6)
 
-/datum/seed/soybeans
-	name = "soybeans"
-	seed_name = "soybeans"
+/datum/seed/soybean
+	name = "soybean"
+	seed_name = "soybean"
 	display_name = "soybeans"
 	chems = list("nutriment" = list(1,20), "soymilk" = list(10,20))
 	kitchen_tag = "soybeans"
 	companions = list("corn", "potato", "eggplant", "chili")
 
-/datum/seed/soybeans/New()
+/datum/seed/soybean/New()
 	..()
 	set_trait(TRAIT_HARVEST_REPEAT,1)
 	set_trait(TRAIT_MATURATION,4)
@@ -1143,7 +1143,7 @@
 	seed_name = "watermelon"
 	display_name = "watermelon vine"
 	chems = list("nutriment" = list(1,6), "watermelonjuice" = list(10,6))
-	companions = list("corn", "soybeans")
+	companions = list("corn", "soybean")
 
 /datum/seed/watermelon/New()
 	..()
@@ -1168,7 +1168,7 @@
 	display_name = "pumpkin vine"
 	chems = list("nutriment" = list(1,6))
 	kitchen_tag = "pumpkin"
-	companions = list("corn", "soybeans")
+	companions = list("corn", "soybean")
 
 /datum/seed/pumpkin/New()
 	..()

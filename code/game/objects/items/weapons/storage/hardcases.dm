@@ -492,8 +492,7 @@ obj/item/storage/hcases/attackby(obj/item/W, mob/user)
 		/obj/item/airalarm_electronics,
 		/obj/item/tool_upgrade,
 		/obj/item/cell,
-		/obj/item/part/gun,
-		/obj/item/storage/makeshift_grinder
+		/obj/item/part/gun
 		)
 
 /obj/item/storage/hcases/engi/scrap
