@@ -14,7 +14,6 @@
 	var/content = ""
 	var/static/datum/asset/simple/namespaced/common/common_asset = get_asset_datum(/datum/asset/simple/namespaced/common)
 
-
 /datum/browser/New(nuser, nwindow_id, ntitle = 0, nwidth = 0, nheight = 0, atom/nref = null)
 	user = nuser
 	RegisterSignal(user, COMSIG_PARENT_QDELETING, PROC_REF(user_deleted))
@@ -40,7 +39,6 @@
 
 /datum/browser/proc/set_window_options(nwindow_options)
 	window_options = nwindow_options
-
 
 /datum/browser/proc/set_title_image(ntitle_image)
 	// do nothing
@@ -171,8 +169,6 @@
 			param = "[REF(ref)]"
 
 	winset(user, windowid, "on-close=\".windowclose [param]\"")
-
-
 
 // the on-close client verb
 // called when a browser popup window is closed after registering with proc/onclose()

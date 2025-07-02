@@ -49,5 +49,4 @@
 /datum/armor/proc/detachArmor(datum/armor/AA)
 	return getArmor(melee-AA.melee, bullet-AA.bullet, energy-AA.energy, bomb-AA.bomb, bio-AA.bio, rad-AA.rad)
 
-
 #undef ARMORID

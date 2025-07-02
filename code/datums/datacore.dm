@@ -13,7 +13,6 @@ var/global/ManifestJSON
 	//This list tracks characters spawned in the world and cannot be modified in-game. Currently referenced by respawn_character().
 	var/locked[] = list()
 
-
 /datum/datacore/proc/get_manifest(monochrome, OOC)
 	var/list/heads = new()
 	var/list/sec = new()
@@ -164,7 +163,6 @@ var/global/ManifestJSON
 		for(name in misc)
 			dat += "<tr[even ? " class='alt'" : ""]><td>[name]</td><td>[ldg[name]]</td><td>[isactive[name]]</td></tr>"
 			even = !even
-
 
 	dat += "</table>"
 	dat = replacetext(dat, "\n", "") // so it can be placed on paper correctly
@@ -468,7 +466,6 @@ var/global/ManifestJSON
 
 		if(!department && !(name in heads))
 			misc[++misc.len] = list("name" = name, "rank" = rank, "active" = isactive)
-
 
 	PDA_Manifest = list(
 		"heads" = heads,

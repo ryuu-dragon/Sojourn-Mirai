@@ -1,6 +1,4 @@
-/**********************
-* Category Collection *
-**********************/
+// Category Collection
 /datum/category_collection
 	var/category_group_type                          // Type of categories to initialize
 	var/list/datum/category_group/categories         // List of initialized categories
@@ -30,9 +28,7 @@
 /datum/category_collection/proc/operator[]=(idx, B)
 	categories_by_name[idx] = B
 
-/******************
-* Category Groups *
-******************/
+// Category Group
 /datum/category_group
 	var/name = ""
 	var/category_item_type                      // Type of items to initialize
@@ -73,10 +69,7 @@ datum/category_group/dd_SortValue()
 /datum/category_group/proc/operator[]=(idx, B)
 	items_by_name[idx] = B
 
-
-/*****************
-* Category Items *
-*****************/
+// Category Item
 /datum/category_item
 	var/name = ""
 	var/datum/category_group/category		// The group this item belongs to
