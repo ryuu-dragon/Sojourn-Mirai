@@ -67,7 +67,6 @@
 		'sound/music/lobby/Duke_Gneiss-Creating_A_Shell.ogg' = 20
 	)
 
-
 /datum/lobbyscreen/proc/play_music(client/C)
 	if(!musicTrack)
 		return
@@ -78,7 +77,6 @@
 	if(!musicTrack)
 		return
 	sound_to(C, sound(null, repeat = 0, wait = 0, volume = 85, channel = GLOB.lobby_sound_channel))
-
 
 /datum/lobbyscreen/proc/show_titlescreen(client/C)
 	winset(C, "mapwindow.lobbybrowser", "is-disabled=false;is-visible=true")

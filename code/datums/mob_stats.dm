@@ -61,7 +61,6 @@
 	S.changeValue_withcap(Value)
 	LEGACY_SEND_SIGNAL(holder, COMSIG_STAT, S.name, S.getValue(), S.getValue(TRUE))
 
-
 /datum/stat_holder/proc/setStat(statName, Value)
 	var/datum/stat/S = stat_list[statName]
 	S.setValue(Value)
@@ -155,7 +154,6 @@
 		P.assign(holder)
 		. = TRUE
 
-
 /// The main, public proc to remove a perk from a mob. Accepts a path or a stringified path.
 /datum/stat_holder/proc/removePerk(perkType)
 	var/datum/perk/P = getPerk(perkType)
@@ -180,8 +178,6 @@
 		time = world.time + _delay
 	value = _affect
 	id = _id
-
-
 
 /datum/stat
 	var/name = "Character stat"
@@ -226,7 +222,6 @@
 		value = stat_cap
 	else
 		value = value + affect
-
 
 /datum/stat/proc/getValue(pure = FALSE)
 	if(pure)
@@ -291,7 +286,6 @@
 /datum/stat/anatomy
 	name = STAT_ANA
 	desc = "The body itself; the more you know about how far you can push it, the easier it becomes to edge closer towards death's door."
-
 
 // Use to perform stat checks
 /mob/proc/stat_check(stat_path, needed)
