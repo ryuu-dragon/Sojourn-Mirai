@@ -1,9 +1,12 @@
+// Abort Check
 #define ABORT_CHECK						-1
+
+// Tool Use Outcomes
 #define TOOL_USE_FAIL					-1
 #define TOOL_USE_CANCEL					0
 #define TOOL_USE_SUCCESS				1
 
-//Mechanical Qualities
+// Mechanical Qualities
 #define QUALITY_BOLT_TURNING			"bolt turning"
 #define QUALITY_PULSING					"pulsing"
 #define QUALITY_PRYING					"prying"
@@ -17,7 +20,7 @@
 #define QUALITY_SEALING					"sealing"
 #define QUALITY_HAMMERING				"hammering"
 
-//Biological Qualities
+// Biological Qualities
 #define QUALITY_CLAMPING				"clamping"
 #define QUALITY_CAUTERIZING				"cauterizing"
 #define QUALITY_RETRACTING				"retracting"
@@ -25,18 +28,16 @@
 #define QUALITY_SAWING					"sawing"
 #define QUALITY_BONE_SETTING			"bone setting"
 #define QUALITY_CUTTING					"cutting"
-#define QUALITY_LASER_CUTTING			"laser cutting"	//laser scalpels and e-swords - bloodless cutting
+#define QUALITY_LASER_CUTTING			"laser cutting"     // Laser scalpels and e-swords - bloodless cutting
 #define QUALITY_BONE_GRAFTING			"bone grafting"
 
-//Other Qualities
+// Other Qualities
 #define QUALITY_WEAVING					"weaving"
 #define QUALITY_ELECTROCUTION			"electroshock"
 #define QUALITY_ARMOR					"armor"
-#define QUALITY_HEATING					"heating" //Used absure crafting
+#define QUALITY_HEATING					"heating"           // Used absure crafting
 
-
-//Time for a work for tool system calculated in that way: basic time - tool level - stat check..
-//It means that basic tools will give -30 on time, and people on right job should have -20 at least, or even more.
+// Work Time (basic time - tool level - stat check). Basic tools give -30 on time, and people on the right job should give -20 at least
 #define WORKTIME_INSTANT				0
 #define WORKTIME_NEAR_INSTANT			30
 #define WORKTIME_FAST					60
@@ -47,8 +48,7 @@
 #define WORKTIME_LONG					170
 #define WORKTIME_EXTREMELY_LONG			250
 
-//Fail chance for tool system calculated in that way: basic chance - tool level - stat check.
-//Basic tools will give -30% on fail chance, and people on right job should have -20% at least.
+// Fail Chance (basic chance - tool level - stat check). Basic gives -30% on fail chance, and people with the right job should have -20% at least
 #define FAILCHANCE_ZERO					0
 #define FAILCHANCE_VERY_EASY			30
 #define FAILCHANCE_EASY					50
@@ -58,14 +58,13 @@
 #define FAILCHANCE_VERY_HARD			120
 #define FAILCHANCE_IMPOSSIBLE			150
 
-//Sounds for working with tools
+// Tool Work Sounds
 #define NO_WORKSOUND					-1
-
 #define WORKSOUND_CIRCULAR_SAW			'sound/weapons/circsawhit.ogg'
 #define WORKSOUND_SIMPLE_SAW			'sound/items/saw.ogg'
 #define WORKSOUND_WRENCHING				'sound/items/Ratchet.ogg'
 #define WORKSOUND_WIRECUTTING			'sound/items/Wirecutter.ogg'
-#define WORKSOUND_WELDING				"weld"
+#define WORKSOUND_WELDING				"weld"                                  // #TODO-MIRAI - Link this to an .ogg file
 #define WORKSOUND_PULSING				'sound/items/multitool_pulse.ogg'
 #define WORKSOUND_SCREW_DRIVING			'sound/items/Screwdriver.ogg'
 #define WORKSOUND_EASY_CROWBAR			'sound/items/Crowbar.ogg'

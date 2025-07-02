@@ -1,6 +1,4 @@
-//This file is for defines related to damage, armor, and generally violence
-
-//Weapon Force: Provides the base damage for melee weapons.
+// Weapon Force (Base Damage for Melee Weapons)
 #define WEAPON_FORCE_HARMLESS		3
 #define WEAPON_FORCE_WEAK			7
 #define WEAPON_FORCE_NORMAL			10
@@ -9,9 +7,9 @@
 #define WEAPON_FORCE_ROBUST			26
 #define WEAPON_FORCE_BRUTAL			33
 #define WEAPON_FORCE_LETHAL			40
-#define WEAPON_FORCE_GODLIKE		88 // currently only used by the energy axe, which can only be obtained via admin verbs
+#define WEAPON_FORCE_GODLIKE		88          // #TODO-MIRAI - Remove this, it's only used by the energy axe which is admin-only
 
-//Armor Penetration: Ignores a certain amount of armor for the purposes of inflicting damage.
+// Armor Penetration (Ignores a Certain Amount of Armor for the Purposes of Inflicting Damage)
 #define ARMOR_PEN_GRAZING			1.2
 #define ARMOR_PEN_SHALLOW			1.4
 #define ARMOR_PEN_MODERATE			1.6
@@ -21,7 +19,7 @@
 #define ARMOR_PEN_MASSIVE			3
 #define ARMOR_PEN_MAX				10
 
-//Wounding Multiplier: Increases damage taken, applied after armor. Also increases odds of sharpnal embeds see human_defence.dm
+// Wounding Multiplier (Increases Damage Taken, Applied after Armor. Also increases the odds of shrapnel embeds, see human_defence.dm)
 #define WOUNDING_HARMLESS			0.25
 #define WOUNDING_TINY				0.5
 #define WOUNDING_SMALL				0.75
@@ -31,15 +29,12 @@
 #define WOUNDING_EXTREME			1.75
 #define WOUNDING_DEVESTATING		2
 
-//Injury Type: Degrades specific wounding multipliers depending on sharpness and edge
+// Injury Type (Degrades Specific Wounding Multipliers Depending on Sharpness and Edge)
+#define INJURY_TYPE_LIVING "living"             // Anything with soft organs
+#define INJURY_TYPE_UNLIVING "unliving"         // Things with hard vital parts, but not a proper organism, such as robots. TODO: FBPs into their own species - all robotic limbs possessing the defined species regardless of torso
+#define INJURY_TYPE_HOMOGENOUS "homogenous"     // Solid objects, such as walls, slimes (they contain a slime core, but otherwise are a single "cell", with no distinct organs), golems
 
-#define INJURY_TYPE_LIVING "living" // Anything with soft organs
-#define INJURY_TYPE_UNLIVING "unliving" // Things with hard vital parts, but not a proper organism, such as robots. TODO: FBPs into their own species - all robotic limbs possessing the defined species regardless of torso
-#define INJURY_TYPE_HOMOGENOUS "homogenous" // Solid objects, such as walls, slimes (they contain a slime core, but otherwise are a single "cell", with no distinct organs), golems
-
-//Resistance values, used on floors, windows, airlocks, girders, and similar hard targets.
-//Resistance value is also used on simple animals.
-//Reduces the damage they take by flat amounts
+// Resistance Values (Flat amount of damage reduction for floors, walls and other structures. Also used by simple animals)
 #define RESISTANCE_NONE 				0
 #define RESISTANCE_FLIMSY				2
 #define RESISTANCE_FRAGILE 				4
@@ -51,10 +46,7 @@
 #define RESISTANCE_VAULT 				32
 #define RESISTANCE_UNBREAKABLE 			100
 
-
-//Structure damage values: Multipliers on base damage for attacking hard targets
-//Blades are weaker, and heavy/blunt weapons are stronger.
-//Drills, fireaxes and energy melee weapons are the high end
+// Structure Damage Values (Multipliers on Base Damage for Attacking Hard Targets)
 #define STRUCTURE_DAMAGE_BLADE 			0.5
 #define STRUCTURE_DAMAGE_WEAK 			0.8
 #define STRUCTURE_DAMAGE_NORMAL 		1.0
@@ -64,7 +56,7 @@
 #define STRUCTURE_DAMAGE_DESTRUCTIVE 	2.0
 #define STRUCTURE_DAMAGE_BORING 		3
 
-
+// Fire Delay (#TODO-MIRAI - See if this should be kept or removed)
 /*
 Fire delay 1 = 600 rounds per minute
 Fire delay 2 = 300 rounds per minute
@@ -97,8 +89,6 @@ Fire delay 15 = 40 rounds per minute
 #define SEMI_AUTO_NODELAY	list(mode_name = "semiauto",  mode_desc = "Fire as fast as you can pull the trigger", burst=1, fire_delay=0, move_delay=null, icon="semi")
 #define SEMI_AUTO_SOMEDELAY	list(mode_name = "semiauto",  mode_desc = "Small Delay with chambering before fire", burst=1, fire_delay=1, move_delay=null, icon="semi")
 
-
-
 #define BURST_2_ROUND		list(mode_name="2-round bursts", mode_desc = "Short, two shot bursts",     burst=2, fire_delay=null, move_delay=2, icon="burst", damage_mult_add = -0.2)
 #define BURST_3_ROUND		list(mode_name="3-round bursts", mode_desc = "Short, three shot bursts",   burst=3, fire_delay=null, move_delay=4, icon="three", damage_mult_add = -0.2)
 #define BURST_5_ROUND		list(mode_name="5-round bursts", mode_desc = "Short, controlled bursts",   burst=5, fire_delay=null, move_delay=6, icon="five", damage_mult_add = -0.2)
@@ -109,19 +99,15 @@ Fire delay 15 = 40 rounds per minute
 #define BURST_5_ROUND_NOLOSS		list(mode_name="5-round bursts", mode_desc = "Short, controlled bursts",   burst=5, fire_delay=null, move_delay=6, icon="five")
 #define BURST_8_ROUND_NOLOSS		list(mode_name="8-round bursts", mode_desc = "Short, uncontrolled bursts", burst=8, fire_delay=null, move_delay=8, icon="eight")
 
-
-
 #define WEAPON_NORMAL		list(mode_name="standard", burst =1, icon="semi")
 #define WEAPON_CHARGE		list(mode_name="charge mode", mode_desc="Hold down the trigger, and let loose a more powerful shot", mode_type = /datum/firemode/charge, icon="charge")
 
 #define STUNBOLT			list(mode_name="stun", mode_desc="Stun bolt until they're eating the floortiles", projectile_type=/obj/item/projectile/beam/stun, item_modifystate="stun", fire_sound='sound/weapons/energy/Taser.ogg', icon="stun")
 #define LETHAL				list(mode_name="kill", mode_desc="To defeat the Vagabond, shoot it until it dies", projectile_type=/obj/item/projectile/beam, item_modifystate="kill", fire_sound='sound/weapons/energy/Laser.ogg', icon="kill")
 
-
 #define VIG_OVERCHARGE_GEN 0.05
 
-// recoil
-
+// Recoil
 #define MAX_ACCURACY_OFFSET  50 //It's both how big gun recoil can build up, and how hard you can miss
 #define RECOIL_REDUCTION_TIME 1 SECOND
 
