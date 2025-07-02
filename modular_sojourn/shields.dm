@@ -22,7 +22,6 @@
 		slot_back_str = "bastion_back"
 		)
 
-
 /obj/item/bastion_broken
 	name = "Broken: Bastion Shield"
 	desc = "Once a project inspired by an idea for a true deployable barrier, the \"Bastion Shield\" came as a surprisingly successful one, both surprisingly light and insurmountably sturdy enough to be carried out into the most dangerous combat zones. A true marvel of Guild, SI and Blackshield joint effort. \
@@ -74,7 +73,6 @@
 	if(health < 1)
 		new /obj/item/bastion_broken(get_turf(src))
 		qdel(src)
-
 
 /obj/structure/shield_deployed/attackby(obj/item/I, mob/living/user)
 	.=..()

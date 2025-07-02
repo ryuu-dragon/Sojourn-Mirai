@@ -236,7 +236,7 @@
 /mob/living/simple/mouse/dust()
 	..(anim = "dust_[body_color]", remains = /obj/item/remains/mouse, iconfile = icon)
 
-// Bite Attack - Deals 1 damage and stuns the mouse for a second (#TODO-ISKHOD - Find a better way to do this)
+// Bite Attack - Deals 1 damage and stuns the mouse for a second (#TODO-MIRAI - Fix this, it doesn't work, try changing the button for it)
 /mob/living/simple/mouse/AltClickOn(A)
 	if (!can_click()) 								// Here because only normal leftclicks use a click cooldown. Easy to fix, but there may be unintended consequences
 		return

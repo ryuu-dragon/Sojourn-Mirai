@@ -47,7 +47,6 @@
 	to_chat(user, SPAN_NOTICE("The churn unable to churn due to lacking milk or salt!"))
 	return FALSE
 
-
 /obj/structure/churn/proc/churn_loop(mob/user)
 	while(churns_done < churns_needed)
 		if(do_after(user, churn_delay))
@@ -56,7 +55,6 @@
 			break
 	if(churns_done >= churns_needed)
 		cycle_completed()
-
 
 /obj/structure/churn/proc/cycle_completed()
 	churns_done = 0
