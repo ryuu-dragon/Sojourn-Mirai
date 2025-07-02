@@ -1,27 +1,29 @@
+// Sheet Material Amount
 #define SHEET_MATERIAL_AMOUNT 1
 
-#define TECH_MATERIAL "materials"
-#define TECH_ENGINEERING "engineering"
-#define TECH_PLASMA "plasma tech"
-#define TECH_POWER "power storage"
-#define TECH_BLUESPACE "bluespace"
-#define TECH_BIO "bio tech"
-#define TECH_COMBAT "combat"
-#define TECH_MAGNET "magnets"
-#define TECH_DATA "programming"
-#define TECH_ILLEGAL "syndicate"
-#define TECH_ARCANE "arcane"
-#define TECH_GREYSON "greyson"
+// Tech Categories
+#define TECH_MATERIAL       "materials"
+#define TECH_ENGINEERING    "engineering"
+#define TECH_PLASMA         "plasma tech"
+#define TECH_POWER          "power storage"
+#define TECH_BLUESPACE      "bluespace"
+#define TECH_BIO            "bio tech"
+#define TECH_COMBAT         "combat"
+#define TECH_MAGNET         "magnets"
+#define TECH_DATA           "programming"
+#define TECH_ILLEGAL        "syndicate"
+#define TECH_ARCANE         "arcane"
+#define TECH_GREYSON        "greyson"
 
-//used in design to specify which machine can build it
-#define IMPRINTER		(1<<0)	//For circuits. Uses glass/chemicals.
-#define PROTOLATHE		(1<<1)	//New stuff. Uses glass/metal/chemicals
-#define AUTOLATHE		(1<<2)
-#define BIOPRINTER		(1<<3)
-#define MECHFAB			(1<<4)
-#define ORGAN_GROWER	(1<<6)
+// Machine Categories (which machine can build it)
+#define IMPRINTER       (1<<0)  // For circuits. Uses glass/chemicals
+#define PROTOLATHE      (1<<1)  // New stuff. Uses glass/metal/chemicals
+#define AUTOLATHE       (1<<2)
+#define BIOPRINTER      (1<<3)
+#define MECHFAB         (1<<4)
+#define ORGAN_GROWER    (1<<6)
 
-
+// Research Categories
 #define RESEARCH_ENGINEERING   /datum/tech/engineering
 #define RESEARCH_BIOTECH       /datum/tech/biotech
 #define RESEARCH_COMBAT        /datum/tech/combat
@@ -32,9 +34,8 @@
 #define RESEARCH_ILLEGAL       /datum/tech/illegal
 #define RESEARCH_PSI           /datum/tech/psi
 
-
-// Design categories
-#define CAT_AMERIDIAN    "Ameridian"
+// Design Categories
+#define CAT_AMERIDIAN   "Ameridian"
 #define CAT_MISC        "Misc"
 #define CAT_COMP        "Computers"
 #define CAT_AI          "AI"
