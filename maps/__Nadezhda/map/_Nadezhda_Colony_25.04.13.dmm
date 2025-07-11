@@ -112685,16 +112685,16 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/newscaster/directional/south,
 /obj/structure/closet/cabinet,
-/obj/item/clothing/accessory/medal/silver/security,
-/obj/item/clothing/accessory/medal/silver/valor,
+/obj/item/clothing/accessory/medal/security,
+/obj/item/clothing/accessory/medal/valor,
 /obj/item/clothing/accessory/medal/silver,
-/obj/item/clothing/accessory/medal/nobel_science,
-/obj/item/clothing/accessory/medal/gold/heroism,
-/obj/item/clothing/accessory/medal/gold/captain,
+/obj/item/clothing/accessory/medal/nobelscience,
+/obj/item/clothing/accessory/medal/heroism,
+/obj/item/clothing/accessory/medal/captain,
 /obj/item/clothing/accessory/medal/gold,
 /obj/item/clothing/accessory/medal/conduct,
-/obj/item/clothing/accessory/medal/bronze_heart,
-/obj/item/clothing/accessory/medal,
+/obj/item/clothing/accessory/medal/bronzeheart,
+/obj/item/clothing/accessory/medal/bronze,
 /turf/simulated/floor/wood/wild1,
 /area/nadezhda/command/captain)
 "vpd" = (
@@ -122393,7 +122393,7 @@
 /area/nadezhda/outside/forest)
 "xfG" = (
 /obj/item/clothing/accessory/medal/conduct,
-/obj/item/clothing/accessory/medal/gold/heroism,
+/obj/item/clothing/accessory/medal/heroism,
 /obj/structure/table/rack/shelf,
 /turf/simulated/floor/tiled/steel/gray_platform,
 /area/nadezhda/maintenance/surfacesec)

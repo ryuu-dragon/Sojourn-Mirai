@@ -48605,16 +48605,16 @@
 /area/nadezhda/medical/sleeper)
 "oGo" = (
 /obj/structure/closet/cabinet,
-/obj/item/clothing/accessory/medal,
-/obj/item/clothing/accessory/medal/bronze_heart,
+/obj/item/clothing/accessory/medal/bronze,
+/obj/item/clothing/accessory/medal/bronzeheart,
 /obj/item/clothing/accessory/medal/conduct,
 /obj/item/clothing/accessory/medal/gold,
-/obj/item/clothing/accessory/medal/gold/captain,
-/obj/item/clothing/accessory/medal/gold/heroism,
-/obj/item/clothing/accessory/medal/nobel_science,
+/obj/item/clothing/accessory/medal/captain,
+/obj/item/clothing/accessory/medal/heroism,
+/obj/item/clothing/accessory/medal/nobelscience,
 /obj/item/clothing/accessory/medal/silver,
-/obj/item/clothing/accessory/medal/silver/security,
-/obj/item/clothing/accessory/medal/silver/valor,
+/obj/item/clothing/accessory/medal/security,
+/obj/item/clothing/accessory/medal/valor,
 /turf/simulated/floor/carpet/turcarpet,
 /area/nadezhda/command/captain/quarters)
 "oGu" = (
