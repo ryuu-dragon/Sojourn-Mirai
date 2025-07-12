@@ -78,71 +78,6 @@
 		return	//we aren't an object on the ground so don't call parent
 	..()
 
-/obj/item/clothing/accessory/tie/black
-	name = "black tie"
-	desc = "A neosilk clip-on tie with a black design."
-	icon_state = "blacktie"
-
-/obj/item/clothing/accessory/tie/blue
-	name = "blue tie"
-	desc = "A neosilk clip-on tie with a blue design."
-	icon_state = "bluetie"
-
-/obj/item/clothing/accessory/tie/blueclip
-	name = "blue clip tie"
-	desc = "A neosilk clip-on long tie with a striped blue design and clip."
-	icon_state = "bluecliptie"
-
-/obj/item/clothing/accessory/tie/bluestriped
-	name = "blue striped tie"
-	desc = "A neosilk clip-on long tie with a striped blue design."
-	icon_state = "bluelongtie"
-
-/obj/item/clothing/accessory/tie/darkgreen
-	name = "dark green tie"
-	desc = "A neosilk clip-on long tie with a dark green design."
-	icon_state = "dgreentie"
-
-/obj/item/clothing/accessory/tie/navy
-	name = "navy tie"
-	desc = "A neosilk clip-on long tie with a navy design."
-	icon_state = "navytie"
-
-/obj/item/clothing/accessory/tie/red
-	name = "red tie"
-	desc = "A neosilk clip-on tie with a red design."
-	icon_state = "redtie"
-
-/obj/item/clothing/accessory/tie/redclip
-	name = "red clip tie"
-	desc = "A neosilk clip-on long tie with a striped red design and clip."
-	icon_state = "redcliptie"
-
-/obj/item/clothing/accessory/tie/redstriped
-	name = "red striped tie"
-	desc = "A neosilk clip-on long tie with a striped red design."
-	icon_state = "redlongtie"
-
-/obj/item/clothing/accessory/tie/white
-	name = "white tie"
-	desc = "A neosilk clip-on long tie with a white design."
-	icon_state = "whitetie"
-
-/obj/item/clothing/accessory/tie/yellow
-	name = "yellow tie"
-	desc = "A neosilk clip-on tie with a yellow design."
-	icon_state = "yellowtie"
-
-/obj/item/clothing/accessory/tie
-	name = "yellow large tie"
-	desc = "A neosilk clip-on tie with a gaudy yellow design."
-	icon_state = "horribletie"
-
-/obj/item/clothing/accessory/tie/color
-	name = "tie"
-	desc = "A neosilk clip-on tie."
-	icon_state = "colortie"
-
 /*Stethoscope*/
 
 /obj/item/clothing/accessory/stethoscope
@@ -201,55 +136,6 @@
 
 				user.visible_message("[user] places [src] against [M]'s [body_part] and listens attentively.", "You place [src] against [their] [body_part]. You [sound_strength] [sound].")
 	return ..(M,user)
-
-/*Medals*/
-
-/obj/item/clothing/accessory/medal
-	name = "bronze medal"
-	desc = "A bronze medal."
-	icon_state = "bronze"
-	price_tag = 250
-
-/obj/item/clothing/accessory/medal/conduct
-	name = "distinguished conduct medal"
-	desc = "A bronze medal awarded for distinguished conduct. Whilst a great honor, this is most basic award on offer. It is often awarded by the council to a member of their crew."
-
-/obj/item/clothing/accessory/medal/bronze_heart
-	name = "bronze heart medal"
-	desc = "A bronze heart-shaped medal awarded for sacrifice. It is often awarded posthumously or for severe injury in the line of duty."
-	icon_state = "bronze_heart"
-
-/obj/item/clothing/accessory/medal/nobel_science
-	name = "nobel sciences award"
-	desc = "A bronze medal which represents significant contributions to the field of science or engineering."
-
-/obj/item/clothing/accessory/medal/silver
-	name = "silver medal"
-	desc = "A silver medal."
-	icon_state = "silver"
-	price_tag = 250
-
-/obj/item/clothing/accessory/medal/silver/valor
-	name = "medal of valor"
-	desc = "A silver medal awarded for acts of exceptional valor."
-
-/obj/item/clothing/accessory/medal/silver/security
-	name = "robust security award"
-	desc = "An award for distinguished combat and sacrifice in defence of the colony. Often awarded to security staff."
-
-/obj/item/clothing/accessory/medal/gold
-	name = "gold medal"
-	desc = "A prestigious golden medal."
-	icon_state = "gold"
-	price_tag = 500
-
-/obj/item/clothing/accessory/medal/gold/captain
-	name = "medal of exceptional statecraft"
-	desc = "A golden medal awarded exclusively to those who show distinguished duty as a premier. It signifies the codified responsibilities of the position and their undisputable qualities within it."
-
-/obj/item/clothing/accessory/medal/gold/heroism
-	name = "medal of exceptional heroism"
-	desc = "An extremely rare golden medal awarded only by faction woners. To recieve such a medal is the highest honor and as such, very few exist. This medal is almost never awarded to anybody but commanders."
 
 /*Capes*/
 

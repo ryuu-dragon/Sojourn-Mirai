@@ -757,7 +757,7 @@ Boxes with clothing on them, unable to put them back if taken out because...
 		new /obj/item/clothing/head/rank/trooperdress(src)
 		new /obj/item/clothing/accessory/tie/navy(src)
 		new /obj/item/clothing/shoes/laceup(src)
-		new /obj/item/clothing/accessory/armband/militia(src)
+		new /obj/item/clothing/accessory/armband/blackshield(src)
 		new /obj/item/clothing/accessory/armband/corpsman(src)
 
 /obj/item/storage/box/sergeantuniform

@@ -55,7 +55,7 @@ Treat your command officers with respect and listen to their council. Try not to
 		if(!..())	return 0
 		if(H.age>49)
 			var/obj/item/clothing/under/U = H.w_uniform
-			if(istype(U)) U.accessories += new /obj/item/clothing/accessory/medal/gold/captain(U)
+			if(istype(U)) U.accessories += new /obj/item/clothing/accessory/medal/captain(U)
 		return 1
 
 	get_access()
