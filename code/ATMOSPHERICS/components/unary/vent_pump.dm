@@ -142,13 +142,7 @@
 		use_power = NO_POWER_USE
 		return
 
-	if(!use_power)
-		return 0
-
-	if(stat & (NOPOWER|BROKEN))
-		return 0
-
-	if(welded)
+	if(!use_power || (stat & (NOPOWER|BROKEN)) || welded)
 		return 0
 
 	var/list/environments = get_target_environments(src, expanded_range)
