@@ -117,7 +117,7 @@
 
 /datum/supply_pack/smoothoperator
 	name = "LS Smooth Operator Specialty Crate"
-	contains = list(/obj/item/gun/projectile/silenced, //375
+	contains = list(/obj/item/gun/projectile/rafale, //375
 					/obj/item/ammo_magazine/magnum_40,
 					/obj/item/ammo_magazine/magnum_40,
 					/obj/item/clothing/shoes/syndigaloshes,

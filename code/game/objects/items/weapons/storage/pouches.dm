@@ -530,7 +530,7 @@ obj/item/storage/pouch/large_generic/advmedic/populate_contents()
 		/obj/item/gun/projectile/mk58,
 		/obj/item/gun/projectile/revolver/lemant,
 		/obj/item/gun/projectile/olivaw,
-		/obj/item/gun/projectile/silenced,
+		/obj/item/gun/projectile/rafale,
 		/obj/item/gun/projectile/ladon,
 		/obj/item/gun/projectile/glock,
 		/obj/item/gun/projectile/that_gun,

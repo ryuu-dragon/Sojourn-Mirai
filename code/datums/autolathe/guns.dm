@@ -59,7 +59,7 @@
 
 /datum/design/autolathe/gun/rafale
 	name = "Seinemetall Defense GmbH SHG .40 \"Rafale\""
-	build_path = /obj/item/gun/projectile/silenced
+	build_path = /obj/item/gun/projectile/rafale
 
 /datum/design/autolathe/gun/mk58_wood
 	name = "OT HG .40 \"Mk58\""

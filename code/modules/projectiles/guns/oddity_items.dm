@@ -128,7 +128,7 @@
 		)
 	serial_type = "BlueCross"
 
-/obj/item/gun/projectile/silenced/rat
+/obj/item/gun/projectile/rafale/ratman
 	name = "\"Rat Man\" silenced pistol"
 	desc = "An anomalous weapon created by an unknown person (or group?), their work marked by a blue cross, these items are known to vanish and reappear when left alone. \
 	A spray painted decal of a rat man with a grinning face has been placed on the grip, the deadliest killers are often those ignored or underestimated by others after all. \
