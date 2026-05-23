@@ -177,7 +177,7 @@
 	desc = ".40 suppressed handgun and its kit."
 
 /obj/item/storage/box/syndie_kit/pistol/populate_contents()
-	new /obj/item/gun/projectile/silenced(src)
+	new /obj/item/gun/projectile/rafale(src)
 	new /obj/item/ammo_magazine/magnum_40/hv(src)
 	new /obj/item/ammo_magazine/magnum_40/hv(src)
 	new /obj/item/clothing/glasses/sunglasses(src)

@@ -10,7 +10,7 @@
 	contents_list_base = list(/obj/item/storage/box/smokes)
 	contents_list_random = list(
 		/obj/item/storage/box/anti_photons = 60,
-		/obj/item/gun/projectile/silenced = 50,
+		/obj/item/gun/projectile/rafale = 50,
 		/obj/item/material/star/uranium = 70,
 		/obj/item/tool/sword/katana = 20,
 		/obj/item/rig_module/modular_injector/medical/preloaded = 90, //Weakest chem dispenser rig

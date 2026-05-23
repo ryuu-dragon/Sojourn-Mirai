@@ -59,7 +59,7 @@
 
 /datum/design/autolathe/gun/rafale
 	name = "Seinemetall Defense GmbH SHG .40 \"Rafale\""
-	build_path = /obj/item/gun/projectile/silenced
+	build_path = /obj/item/gun/projectile/rafale
 
 /datum/design/autolathe/gun/mk58_wood
 	name = "OT HG .40 \"Mk58\""
@@ -94,9 +94,9 @@
 	name = "SA HG .50 Kurz \"Lamia\""
 	build_path = /obj/item/gun/projectile/lamia
 
-/datum/design/autolathe/gun/scoped_lamia
+/datum/design/autolathe/gun/argos
 	name = "Seinemetall Defense GmbH HG .50 Kurz \"Argos\" Advanced"
-	build_path = /obj/item/gun/projectile/lamia/scoped
+	build_path = /obj/item/gun/projectile/lamia/argos
 
 /datum/design/autolathe/gun/basilisk
 	name = "H&S HG .50 Kurz \"Basilisk\""

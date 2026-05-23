@@ -61,7 +61,7 @@
 	serial_type = "Sol Fed"
 	serial_shown = TRUE
 
-/obj/item/gun/projectile/lamia/scoped
+/obj/item/gun/projectile/lamia/argos
 	name = "\"Argos\" advanced heavy pistol"
 	desc = "Seinemetall Defense GmbH handgun .50 Kurz \"Argos\" Based on the \"Lamia\" heavy pistol, it's fit for high ranking enforcers; fitted with a smart-linked optic and stabilizer. Uses .50 Kurz."
 	icon_state = "scoped_lamia"
