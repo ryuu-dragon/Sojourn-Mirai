@@ -305,7 +305,7 @@
 	desc = "A kit containing a highly specialized .50 Kurz pistol with smart-linked optics and stabilizers."
 
 	populate_contents()
-		new /obj/item/gun/projectile/lamia/scoped(src)
+		new /obj/item/gun/projectile/lamia/argos(src)
 		new /obj/item/ammo_magazine/kurz_50(src)
 		new /obj/item/ammo_magazine/kurz_50(src)
 		new /obj/item/clothing/accessory/holster/leg(src)

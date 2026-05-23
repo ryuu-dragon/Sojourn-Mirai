@@ -167,7 +167,7 @@
 				/obj/item/gun/projectile/colt/ten = 2,\
 				/obj/item/gun/projectile/automatic/nordwind/strelki = 0.3, \
 				/obj/item/gun/projectile/boltgun/lever = 1, \
-				/obj/item/gun/projectile/lamia/scoped = 1,\
+				/obj/item/gun/projectile/lamia/argos = 1,\
 				/obj/item/gun/projectile/revolver/deckard = 0.4,\
 				/obj/item/gun/projectile/makarov = 1.5,\
 				/obj/item/gun/energy/lasercannon = 0.5,\
